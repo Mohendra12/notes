@@ -1,0 +1,116 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  word-spacing: 5px;
+  line-height: 0.7cm;
+}
+
+h1 {
+  text-transform: uppercase;
+  background-color: lightblue;
+  color: mediumpurple;
+  text-shadow: 2px 2px 5px #000;
+}
+
+h3 {
+  background-color: aquamarine;
+  box-shadow: 5px 5px 10px seagreen;
+  border: 1px solid #fff;
+  padding-left: 5px;
+}
+
+h4 {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+h5 {
+  text-align: center;
+}
+
+h5 a:hover {
+  color: burlywood;
+}
+
+u {
+  color: forestgreen;
+}
+
+img {
+  height: 240px;
+  width: 345px;
+  
+}
+
+p {
+  text-align: justify;
+  text-indent: 40px;
+
+}
+
+span {
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  text-indent: 50px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: red;
+  font-weight: bold;
+  
+}
+
+nav a:hover {
+  color: #555;
+}
+a {
+  text-decoration: none;
+}
+
+.bold {
+  background-color: bisque;
+}
+
+.links {
+  background-color: gainsboro;
+}
+
+.reference {
+  font-style: italic;
+}
+
+.collapsible {
+    cursor: pointer;
+    padding: 5px;
+    background-color: aquamarine; /* Blue color for main topics */
+    box-shadow: 5px 5px 8px seagreen;
+    color: #000; /* black text color */
+    border: 1px solid mediumaquamarine;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.collapsible:hover {
+    background-color: mediumaquamarine;
+}
+
+.content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.content h3 {
+  background-color: burlywood;
+}
